@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    min-width: 1350px;
+}
+#top{
+    width: 1350px;
+    margin: 30px auto;
+}
+#top h1{
+    float: left;
+    transform: translate(180%, 0);
+}
+#top ul{
+    float: right;
+}
+#top ul li{
+    float: left;
+    padding: 0 5px;
+}
+#header{
+    width: 1350px;
+    height: 123px;
+    margin: auto;
+    clear: both;
+}
+#header ul li{
+    float: left;
+    padding:  50px 99px;
+}
+#header ul li a{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#footer{
+    clear: both;
+    background: #333;
+    height: 200px;
+    color: white;
+    line-height: 30px;
+}
+#footer_inner{
+    width: 1350px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+#footer h1{
+    float: left;
+    padding-right: 100px;
+}
+#footer #box{
+    float: left;
+}
+#footer ul li{
+    float:left;
+    padding: 0 10px;
+}
+#footer ul li a{
+    color: white;
+}
+#footer p{
+    clear: both;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*헤더, 푸터*/
+
+#mg{
+    background: url(images/mg.png) no-repeat center top;
+    height: 1280px;
+     background-size: cover;
+     box-sizing: border-box;
+}
+#mg #text{
+    padding: 500px 0 0 850px;
+    width: 1350px;
+    margin: auto;
+    line-height: 50px;
+    color: rgb(78, 37, 8);
+    font-family: 'Gowun Batang', serif;
+    box-sizing: border-box;
+}
+#mg #text p{
+    font-size: 20px;
+    padding-top: 50px;
+}
+#bg{
+    padding-top: 100px;
+    background: sandybrown no-repeat center top;
+    height: 600px;
+}
+#bg_inner{
+    width: 1350px;
+    margin: auto;
+}
+#bg dl{
+    float: left;
+    padding: 0 37px;
+    width: 376;
+    text-align: center;
+   
+}
+#bg dl dd{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 30px;
+}
+
+#box_inner{
+    width: 1350px;
+    margin: auto;
+    margin-top: 100px;
+}
+#box h1{
+    color: cadetblue;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#box_inner div{
+    width: 50%;
+    height: 450px;
+   
+}
+#box p{
+    line-height: 35px;
+    font-size: 18px;
+}
+#box #text1 h2{
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+#box #text2 h2{
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+#box #text3 h2{
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+#box #img1{
+    float: left;
+    text-align: center;
+}
+#box #text1{
+    float: right;
+    
+}
+#box #img2{
+   float: right;
+   box-sizing: border-box;
+
+}
+#box #text2{
+  float: left;
+  box-sizing: border-box;
+  padding-left: 170px;
+}
+#box #img3{
+    float: left;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+#box #text3{
+    float: right;
+}
+
+#paper{
+    margin: auto;
+    width: 1350px;
+   padding-bottom: 100px;
+}
+#cooker{
+    background:url(images/cooker.png) no-repeat center top;
+    height: 800px;
+    background-size: cover;
+     
+}
+#cooker_inner{
+    width: 1350px;
+    margin: auto;
+    padding-left: 750px;
+    padding-top: 200px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+#cooker p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
