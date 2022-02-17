@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1450">
     <title>굽떼 구움과자전문점</title>
+
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
@@ -40,10 +45,14 @@
     </div>
     <!--header-->
 
-    <div id="mg">
+    <div class="button">
+        <a href="#">TOP</a>
+    </div>
+
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="mg">
         <div id="text">
-            <h1>굽떼의 특별한 재료이야기</h1>
-            <p>건강하고 좋은 맛을 내기 위해<br>
+            <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">굽떼의 특별한 재료이야기</h1>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">건강하고 좋은 맛을 내기 위해<br>
                 까다롭게 선정한 자연을 담은 재료<br>
 
                 환경을 생각하는 친환경 포장패키지와<br>
@@ -51,21 +60,24 @@
         </div>
     </div>
 
-    <div id="bg">
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="bg">
         <div id="bg_inner">
             <dl id="meal">
-                <dt><img src="images/meal.png" alt="밀가루"></dt>
-                <dd>국산 우리밀과<br>
+                <dt data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400"><img src="images/meal.png"
+                        alt="밀가루"></dt>
+                <dd data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">국산 우리밀과<br>
                     유기농 밀가루 사용</dd>
             </dl>
             <dl id="sugar">
-                <dt><img src="images/sugar.png" alt="설탕"></dt>
-                <dd>유기농설탕과<br>
+                <dt data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"><img src="images/sugar.png"
+                        alt="설탕"></dt>
+                <dd data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">유기농설탕과<br>
                     팜슈가 사용</dd>
             </dl>
             <dl id="butter">
-                <dt><img src="images/butter.png" alt="버터"></dt>
-                <dd>프랑스 고메버터와<br>
+                <dt data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600"><img src="images/butter.png"
+                        alt="버터"></dt>
+                <dd data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">프랑스 고메버터와<br>
                     브라운버터 사용</dd>
             </dl>
         </div>
@@ -73,13 +85,13 @@
 
     <div id="box">
         <div id="box_inner">
-            <h1>굽떼 구움과자의 재료는...</h1>
-            <div id="img1">
+            <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">굽떼 구움과자의 재료는...</h1>
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" id="img1">
                 <img src="images/meal2.png" alt="밀가루">
             </div>
             <div id="text1">
-                <h2>밀가루</h2>
-                <p>국산 우리밀과 유기농 밀가루만을 사용함으로써<br>
+                <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">밀가루</h2>
+                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">국산 우리밀과 유기농 밀가루만을 사용함으로써<br>
                     건강과 개성있는 식감을 살려주었습니다.<br>
                     황금빛 속 꽉 찬 밀에 굽떼만의 노하우가 담겨있습니다.<br>
                     구움과자와 쿠키에 식감을 살려주기 위해<br>
@@ -87,12 +99,12 @@
                     쫄깃한 식감을 더욱 잘 느낄 수 있습니다.</p>
             </div>
 
-            <div id="img2">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="img2">
                 <img src="images/sugar2.png" alt="설탕">
             </div>
             <div id="text2">
-                <h2>설탕</h2>
-                <p>유기농 설탕과 팜슈가를 사용하였습니다<br>
+                <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">설탕</h2>
+                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">유기농 설탕과 팜슈가를 사용하였습니다<br>
                     팜슈가는 일반 설탕보다 가격이 비싸지만<br>
                     영양성분과 맛이 매우 훌륭합니다.<br>
                     같은 당분의 양이라도 단맛이 강하지 않고<br>
@@ -100,12 +112,12 @@
                     감미로움이 탁월하여 자주 먹어도 질리지 않습니다.</p>
             </div>
 
-            <div id="img3">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="img3">
                 <img src="images/butter2.png" alt="버터">
             </div>
             <div id="text3">
-                <h2>버터</h2>
-                <p>프랑스 고메버터와 브라운버터를 사용하여<br>
+                <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">버터</h2>
+                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">프랑스 고메버터와 브라운버터를 사용하여<br>
                     맛뿐만 아니라 고소한 향과 풍미를 더하였습니다.<br>
                     부드러움과 짭쪼롬하면서도 달달함을 느낄 수 있으며<br>
                     깊은 풍미와 함께 자주 손이 가는 구움과자입니다. .</p>
@@ -114,28 +126,28 @@
         </div>
     </div>
 
-    <div id="paper">
-        <img src="images/paper.png" alt="친환경패키지">
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="paper">
+        <img data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" src="images/paper.png" alt="친환경패키지">
     </div>
 
-    <div id="cooker">
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="cooker">
         <div id="cooker_inner">
-            <p>2021년 1월 1일에 오픈한 이후로<br>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">2021년 1월 1일에 오픈한 이후로<br>
                 약1년동안 많은 사랑을 받아<br>
                 지금의 굽떼로 발전해왔습니다.<br>
             </p>
-            <p>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
                 2022년 1월 1일, 새로운 마음 새뜻으로<br>
                 초심을 잊지않고 다가가겠습니다.<br>
             </p>
-            <p>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
                 앞으로도 고객과 소통하며 건강한 재료를<br>
                 바탕으로 맛있는 구움과자로 보답하겠습니다.<br>
             </p>
-            <p>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
                 오늘도 구떼하세요!
             </p>
-            <h1>굽떼 대표 김나리</h1>
+            <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">굽떼 대표 김나리</h1>
         </div>
     </div>
     <!--footer-->
@@ -160,5 +172,8 @@
         </div>
     </div>
 </body>
+<script>
+    AOS.init();
+</script>
 
 </html>
